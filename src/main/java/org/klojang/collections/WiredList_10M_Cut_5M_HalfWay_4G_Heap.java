@@ -12,12 +12,12 @@ import java.util.concurrent.TimeUnit;
 @Fork(value = 4, jvmArgs = {"-Xms4G", "-Xmx4G", "-XX:-StackTraceInThrowable"})
 @Warmup(iterations = 4, time = 3500, timeUnit = TimeUnit.MILLISECONDS)
 @Measurement(iterations = 3, time = 3000, timeUnit = TimeUnit.MILLISECONDS)
-public class WiredList_10M_Cut_10K_HalfWay_4G_Heap {
+public class WiredList_10M_Cut_5M_HalfWay_4G_Heap {
 
   private static final boolean swallow = false;
 
   public static int LIST_SIZE = 10_000_000;
-  private static int SEGMENT_SIZE = 10_000;
+  private static int SEGMENT_SIZE = 5_000_000;
 
   public Integer[] ints = new Integer[LIST_SIZE];
 
