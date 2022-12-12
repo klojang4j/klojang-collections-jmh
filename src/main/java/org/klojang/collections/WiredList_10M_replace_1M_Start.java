@@ -56,13 +56,13 @@ public class WiredList_10M_replace_1M_Start {
 
   @Benchmark
   public void wiredList(Blackhole bh) {
-    wiredList1.rewire(from, to, wiredList2);
+    wiredList1.replaceAll(from, to, wiredList2);
     bh.consume(wiredList1);
   }
 
   @Benchmark
   public void crisprList(Blackhole bh) {
-    crisprList1.rewire(from, to, crisprList2);
+    crisprList1.replaceAll(from, to, crisprList2);
     bh.consume(crisprList1);
   }
 
