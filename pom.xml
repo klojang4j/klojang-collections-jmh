@@ -25,7 +25,8 @@
         <!-- *** Check for updates: mvn versions:display-dependency-updates   *** -->
         <!-- *** Check dependencies: mvn dependency:analyze                   *** -->
         <!-- ==================================================================== -->
-        <klojang-collections.version>1.1.1</klojang-collections.version>
+        <klojang-collections.version>1.2.0</klojang-collections.version>
+        <klojang-util.version>1.1.0</klojang-util.version>
         <jmh.version>1.35</jmh.version>
 
         <uberjar.name>benchmarks</uberjar.name>
@@ -40,7 +41,7 @@
         <dependency>
             <groupId>org.klojang</groupId>
             <artifactId>klojang-util</artifactId>
-            <version>1.0.0</version>
+            <version>${klojang-util.version}</version>
         </dependency>
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
