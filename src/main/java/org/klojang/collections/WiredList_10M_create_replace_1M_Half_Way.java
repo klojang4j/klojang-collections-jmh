@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @State(Scope.Benchmark)
-@Fork(value = 4, jvmArgs = {"-Xmn4G"})
+@Fork(value = 4, jvmArgs = {"-Xmn16G"})
 @Warmup(iterations = 4, time = 3500, timeUnit = TimeUnit.MILLISECONDS)
 @Measurement(iterations = 3, time = 3500, timeUnit = TimeUnit.MILLISECONDS)
 public class WiredList_10M_create_replace_1M_Half_Way {

@@ -25,7 +25,7 @@
         <!-- *** Check for updates: mvn versions:display-dependency-updates   *** -->
         <!-- *** Check dependencies: mvn dependency:analyze                   *** -->
         <!-- ==================================================================== -->
-        <klojang-collections.version>1.2.2</klojang-collections.version>
+        <klojang-collections.version>1.2.3</klojang-collections.version>
         <klojang-util.version>1.1.0</klojang-util.version>
         <jmh.version>1.35</jmh.version>
 

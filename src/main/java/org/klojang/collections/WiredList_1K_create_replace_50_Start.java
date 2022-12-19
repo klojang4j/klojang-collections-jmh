@@ -100,8 +100,8 @@ public class WiredList_1K_create_replace_50_Start {
       ints2[idx] = val;
     }
 
-    from = rand.nextInt(1, 5);
-    to = from + SEGMENT_SIZE + rand.nextInt(1, 4);
+    from = rand.nextInt(10, 16);
+    to = from + SEGMENT_SIZE + rand.nextInt(-3, 4);
   }
 
 }
