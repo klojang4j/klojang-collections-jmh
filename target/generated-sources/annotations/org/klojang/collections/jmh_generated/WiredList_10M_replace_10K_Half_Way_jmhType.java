@@ -1,0 +1,4 @@
+package org.klojang.collections.jmh_generated;
+public class WiredList_10M_replace_10K_Half_Way_jmhType extends WiredList_10M_replace_10K_Half_Way_jmhType_B3 {
+}
+

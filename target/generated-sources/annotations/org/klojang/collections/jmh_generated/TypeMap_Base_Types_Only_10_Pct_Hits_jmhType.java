@@ -1,0 +1,4 @@
+package org.klojang.collections.jmh_generated;
+public class TypeMap_Base_Types_Only_10_Pct_Hits_jmhType extends TypeMap_Base_Types_Only_10_Pct_Hits_jmhType_B3 {
+}
+

@@ -1,0 +1,4 @@
+package org.klojang.collections.jmh_generated;
+public class WiredList_10M_Cut_10K_HalfWay_512M_Heap_jmhType extends WiredList_10M_Cut_10K_HalfWay_512M_Heap_jmhType_B3 {
+}
+
